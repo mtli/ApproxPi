@@ -13,7 +13,7 @@ To allow the computation of large numbers in arbitrary radix, this project build
 
 The dominant computation cost is the multiplications of the large numbers. For fast computation, this project uses an FFT-based (fast Fourier transform) algorithm, which reduces the quadratic complexity to <i>O</i>(<i>n</i>log<i>n</i>):
 
-<p align="center"><img alt="Teaser" src="Documents/FFT_mul.png" width="800px"></p>
+<p align="center"><img alt="Teaser" src="Documents/FFT_mul.png" width="400px"></p>
 
 `ArbitraryRadix/ARmain.cpp` is the main file for the computation of π, and `lib/LargeNumbers.h` is the entry file for the large number library. 
 
